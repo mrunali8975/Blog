@@ -67,7 +67,7 @@ Through this project, I learned:
 
 ## Author
 
-- Github- [Recipe Page](https://github.com/mrunali8975/Blog/tree/main/Recipe)
+- Github- [@mrunali8975](https://github.com/mrunali8975)
 - Frontend Mentor - [@mrunali8975](https://www.frontendmentor.io/profile/mrunali8975)
 - Linkedin - [@mrunaliambhore](https://www.linkedin.com/in/mrunali-ambhore-3b46971aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
