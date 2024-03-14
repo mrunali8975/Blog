@@ -15,7 +15,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 This project involves creating a webpage that presents a simple omelette recipe, including ingredients, preparation instructions, and nutritional information. The webpage is designed to be visually appealing, easy to read, and responsive across various devices.
@@ -24,7 +23,10 @@ This project involves creating a webpage that presents a simple omelette recipe,
 ![](./assets/images/recipe-solution.jpeg)
 
 
+### Links
 
+- Solution URL: [Solution ](https://github.com/mrunali8975/Blog/tree/main/Recipe)
+- Live Site URL: [Live URL](https://mrunali8975.github.io/Blog/Recipe/)
 ## My Process
 
 ### Built with
