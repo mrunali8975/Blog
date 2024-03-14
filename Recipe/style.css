@@ -1,0 +1,176 @@
+body{
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainContainer{
+    border-radius: 5px;
+    width: 540px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    padding: 15px;
+    flex-direction: column;
+}
+#mainContainer img{
+    width: 530px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#mainContainer h1{
+    /* width: 100%; */
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+   
+}
+#subContainer{
+    align-self: flex-start;
+}
+
+#startPara {
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+        /* font-style: normal; */ 
+}
+#preparationContainer{
+ border-radius: 10px;
+ background-color: hsl(340, 100%, 98%) ;
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ 
+}
+
+#preparationContainer h2{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color:hsl(332, 51%, 32%) ;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#preparationContainer li p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color:   hsl(24, 5%, 18%)
+
+}
+.spanTitle{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+#ingredientsContainer li{
+ /* margin-left: 2px; */
+ margin: none;
+}
+.h1Heading{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:   hsl(14, 45%, 36%)
+}
+#ingredientsContainer li{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:10px;
+    color:   hsl(24, 5%, 18%)
+
+}
+hr{
+    width:100%;
+}
+<!-- .instructionList{
+    color:  red,
+    font-size:30px
+} -->
+.listNumber {
+    font-family: "Outfit", sans-serif;
+    color: hsl(14, 45%, 36%);
+    margin-right:5px;
+    font-weight: 600;
+    font-style: normal 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    align-items:center;
+    justify-content:center ;
+
+  }
+  tr{
+    border-bottom: 0.5px solid grey;
+   
+  }
+  td{
+    padding:10px;
+  }
+  #tableContainer p{
+    font-family: "Outfit", sans-serif;
+    color:  hsl(24, 5%, 18%);
+    font-weight: 400;
+    font-size:15px;
+    font-style: normal 
+  }
+<!-- #instructionContainer{
+    display:flex;
+    flex-direction: column;
+} -->
+<!-- .instructionList{
+    margin:5px;
+} -->
+.spanContainer{
+    margin-left:5px;
+    margin-bottom:10px;
+}
+<!-- ol li {
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    color:   hsl(14, 45%, 36%)
+} -->
+.spanHeading{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal 
+    color:  black
+}
+.spanContent:{
+    color: hsl(24, 5%, 18%); 
+}
+
+
+.instructionListContainer{
+    display:flex;
+    align-items:center;
+    
+}
+col {
+
+}
+td:nth-child(even) {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal ;
+    color: hsl(14, 45%, 36%);
+   
+  }
+  
+  td:nth-child(odd) {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal ;
+    color: hsl(24, 5%, 18%); 
+   
+  }

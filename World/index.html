@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ce34a27ef6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <h1 id="headingone">Where in the world?</h1>
+      <div id="darkmode-btn">
+        <button id="btn-dark">
+          <i class="fa-regular fa-moon"></i>
+          Dark mode
+        </button>
+      </div>
+    </div>
+    <div id="searchfilterContainer">
+      <div id="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input id="searchData" placeholder="Search for a country" type="text" onchange="handleSearch()"  />
+        
+      </div>
+      <div id="filterContainer">
+        <input type="text" placeholder="filter by region" onchange="openModal()" />
+        <i class="fa-solid fa-chevron-down"></i>
+        <div id="modal"></div>
+      </div>
+    </div>
+    <div id="searchDataContainer">
+      
+    </div>
+    <div>
+      <div class="container" id="data"></div>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>

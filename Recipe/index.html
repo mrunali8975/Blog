@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Recipe page</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div>
+        <img src="./assets/images/image-omelette.jpeg" alt="recipe" />
+      </div>
+      <div id="subContainer">
+        <h1>Simple Omelette Recipe</h1>
+        <p id="startPara">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+        <div id="preparationContainer">
+          <h2>Preparation time</h2>
+          <ul>
+            <li>
+              <p>
+                Total: <span class="spanTitle">Approximately 10 minutes</span>
+              </p>
+            </li>
+            <li>
+              <p>Preparation: <span class="spanTitle">5 minutes</span></p>
+            </li>
+            <li>
+              <p>Cooking: <span class="spanTitle">5 minutes</span></p>
+            </li>
+          </ul>
+        </div>
+        <div id="ingredientsContainer">
+          <h1 class="h1Heading">Ingredients</h1>
+          <ul>
+            <li>2-3 large eggs</li>
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <h1 class="h1Heading">Instructions</h1>
+        <ol>
+          <li class="listNumber">
+            <div class="spanContainer">
+              <span style="color:black; font-family: 'Outfit','sans-serif'; font-weight: 600; font-style: normal; ">Heat the pan:</span>
+              <span  style="color: hsl(24, 5%, 18%); font-weight: 400;">non-stick frying pan over medium heat and add butter or oil.</span> 
+         
+            </div>
+              </li>
+      
+          <li class="listNumber">
+            <div class="spanContainer">
+              <span style="color:black; font-family: 'Outfit','sans-serif'; font-weight: 600; font-style: normal;">Cook the omelette:</span>
+              <span style="color: hsl(24, 5%, 18%); font-weight: 400;">Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</span>
+         
+            </div>
+            </li>
+          
+          <li class="listNumber">
+            <div class="spanContainer">
+              <span style="color:black; font-family: 'Outfit','sans-serif'; font-weight: 600; font-style: normal;">Add fillings (optional):</span>
+              <span style="color: hsl(24, 5%, 18%); font-weight: 400;">
+               When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.
+              </span>
+            </div>
+             
+          </li>
+          
+          <li class="listNumber">
+            <div class="spanContainer">
+              <span style="color:black; font-family: 'Outfit','sans-serif'; font-weight: 600; font-style: normal;">Fold and serve:</span>
+              <span style="color: hsl(24, 5%, 18%); font-weight: 400;">
+               As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.
+              </span> 
+            </div>
+              
+          </li>
+          
+          <li class="listNumber">
+            <div class="spanContainer">
+              <span style="color:black; font-family: 'Outfit','sans-serif'; font-weight: 600; font-style: normal;">Enjoy:</span>
+              <span style="color: hsl(24, 5%, 18%); font-weight: 400;">
+                Serve hot, with additional salt and pepper if needed.
+              </span>
+            </div>
+          </li>
+      </ol>
+      
+      </div>
+      <hr />
+      <div id="tableContainer">
+        <h1 class="h1Heading">Nutrition</h1>
+        <p> The table below shows nutritional values per serving without the additional fillings.</p>
+        <table>
+          <colgroup>
+            <col span="1">
+          </colgroup>
+          <tr>
+            <td>
+              Calories
+            </td>
+            <td>
+              227kcal
+            </td>
+            
+          </tr>
+          <tr>
+            <td>
+              Carbs
+            </td>
+            <td>
+              0g
+            </td>
+            
+          </tr>
+          <tr>
+            <td>
+              Protein
+            </td>
+            <td>
+              20g
+            </td>
+            
+          </tr>
+          <tr>
+            <td>
+              Fat
+            </td>
+            <td>
+              22g
+            </td>
+          </tr>
+        </table>
+      </div>
+      
+  </body>
+</html>
